@@ -1,0 +1,14 @@
+{
+  "name": "hdfc-smart-statement",
+  "version": "0.1.0",
+  "description": "Extract transactions from an HDFC Bank Smart Statement link as CSV, without a browser",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "hdfc-smart-statement": "./bin/cli.js" },
+  "files": ["src", "bin"],
+  "engines": { "node": ">=18" },
+  "keywords": ["hdfc", "bank", "smart-statement", "csv", "india", "statement"],
+  "license": "MIT",
+  "author": "Ashik Nesin"
+}
